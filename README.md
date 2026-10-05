@@ -9,24 +9,16 @@ The system collects student applications, validates eligibility, generates an ap
 ## 🔄 Workflow
 
 
-Student
-   ↓
-n8n Application Form
-   ↓
-Validate Student Marks
-   ↓
-Generate Application ID
-   ↓
-Check Duplicate Application
-   ↓
-Store Application in n8n Data Table
-   ↓
-Send Application to Python Flask API
-   ↓
-Authenticate using API Key
-   ↓
-Store Data in applications.json
-
+-Student submits the application form.
+-n8n collects the application details.
+-An application ID is generated automatically.
+-Student eligibility is checked using the marks/CGPA value.
+-Duplicate applications are checked.
+-Valid applications are stored in the n8n Data Table.
+-n8n sends the application data to the Python Flask API.
+-The Flask API authenticates the request using an API key.
+-Application data is stored in applications.json.
+-n8n handles successful and failed API requests separately.
 
 ## 🛠️ Technologies Used
 
@@ -70,7 +62,6 @@ Student Application Automation System/
 │
 ├── student_api.py
 ├── applications.json
-├── .env
 ├── .gitignore
 └── README.md
 
