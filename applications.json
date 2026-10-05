@@ -1,0 +1,56 @@
+[
+    {
+        "application_id": "APP-1791110638514",
+        "student_name": "k",
+        "email": "k@gmail.com",
+        "phone": "+91 0123456789",
+        "course": "B.Sc IT",
+        "marks": "7",
+        "status": "Eligible"
+    },
+    {
+        "application_id": "APP-1791135705893",
+        "student_name": "b",
+        "email": "b@gmail.com",
+        "phone": "+91 0123456789",
+        "course": "BBA",
+        "marks": "7",
+        "status": "Eligible"
+    },
+    {
+        "application_id": "APP-1791136362105",
+        "student_name": "j",
+        "email": "j@gmail.com",
+        "phone": "+91 0123456789",
+        "course": "BCA",
+        "marks": "8",
+        "status": "Eligible"
+    },
+    {
+        "application_id": "APP-1791136755804",
+        "student_name": "yy",
+        "email": "y@gmail.com",
+        "phone": "+91 9876543210",
+        "course": "B.Sc IT",
+        "marks": "6",
+        "status": "Eligible"
+    },
+    {
+        "application_id": "APP-1791137288967",
+        "student_name": "u",
+        "email": "u@gmail.com",
+        "phone": "+91 3216549870",
+        "course": "MCA",
+        "marks": "7",
+        "status": "Eligible"
+    },
+    {
+        "application_id": "APP-1791177874491",
+        "student_name": "w",
+        "email": "w@gmail.com",
+        "phone": "+91 3216549870",
+        "course": "BBA",
+        "marks": "7",
+        "status": "Eligible"
+    }
+]
